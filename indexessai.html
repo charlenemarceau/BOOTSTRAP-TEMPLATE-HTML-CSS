@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styleessai.css">
+    <title>one page bootstrap</title>
+</head>
+
+<body>
+    <!-- ==============================================
+barre de navigation
+============================================ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">Bootstrap project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="https://colorlib.com/etc/cf/ContactFrom_v5/index.html" tabindex="-1"
+                        aria-disabled="true">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==============================================
+header de page
+============================================ -->
+    <!-- header.header>.container>.row>.col-11*2 -->
+    <header class="header vh-100">
+        <div class="container">
+            <div class="row align-content-center justify-content-center text-center vh-100">
+                <!-- vh-100 :hauteur du row -->
+                <div class="col-11">
+                    <h1 class="text-uppercase text-white">Your favorite source of <span class="d-lg-block"> free
+                            bootstrap themes</span></h1>
+                    <div class="line bg-orange mx-auto my-4"></div>
+                </div>
+                <div class="col-11">
+                    <p class="mb-4 text-light">Start Bootstrap can help you build better websites using the Bootstrap
+                        CSS framework!
+                        <span class="d-md-block">Just download your template and start going, no strings
+                            attached!</span>
+                    </p>
+                    <a href="" class="btn bg-orange text-white rounded-pill text-uppercase px-4 py-2">Find out more</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--------------------------------------
+         Encart orange 
+        --------------------------->
+    <!-- section.encart.bg-orange -->
+    <section class="encart bg-orange py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-lg-8">
+                    <h2 class="text-white">We've got what you need!</h2>
+                    <!-- .line.line-white -->
+                    <div class="line bg-white mx-auto my-4"></div>
+
+                    <p class="text-white">Start Bootstrap has everything you need to get your new website up and running
+                        in no time!
+                        <span class="d-md-block">All of the templates and themes on Start Bootstrap are open source,
+                            free to download, and easy to use.
+                            No strings attached!</p></span>
+                    <a href="" class="btn bg-white rounded-pill px-3 py-2 fw-bold">GET STARTED!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+services
+======================= -->
+
+    <section class="services py-5">
+        <div class="container">
+            <!-- titrage -->
+            <div class="row justify-content-center text-center">
+                <div class="col-12">
+                    <h2>At Your Service</h2>
+                    <div class="line bg-orange mx-auto my-5"></div> <!-- .line.bg-orange.mx-auto.my-4 -->
+                </div>
+            </div>
+            <!-- 4 services -->
+            <div class="row text-center">
+                <!-- .col-12.col-sm-6.col-md-3*4>i.fa.fa-mb-4+h3.mb-4+p>lorem10 -->
+                <div class="col-12 col-sm-6 col-md-3">
+                    <i class="fa fa-diamond fa-4x mb-4 orange"></i>
+                    <h3 class="mb-4">Sturdy Templates</h3>
+                    <p class="px-4 px-sm-0">Our templates are updated regularly so they don't break.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <i class="fa fa-paper-plane fa-4x mb-4 orange"></i>
+                    <h3 class="mb-4">Ready to Ship</h3>
+                    <p class="px-4 px-sm-0">You can use this theme as is or, you can make changes!</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <i class="fa fa-newspaper-o fa-4x mb-4 orange"></i>
+                    <h3 class="mb-4">Up to Date</h3>
+                    <p class="px-4 px-sm-0">We update dependencies to keep things fresh.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-3">
+                    <i class="fa fa-heart fa-4x mb-4 orange"></i>
+                    <h3 class="mb-4">Made with Love</h3>
+                    <p class="px-4 px-sm-0">You have to make your websites with love these days!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         photos 
+        ====================================================-->
+
+    <section class="photos">
+        <div class="container-fluid">
+            <div class="row">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/1.jpg" alt="">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/2.jpg" alt="">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/3.jpg" alt="">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/4.jpg" alt="">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/5.jpg" alt="">
+                <img class="col-12 col-sm-6 col-md-4 col-lg-4 marge"
+                    src="./img/portfolio/fullsize/6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ================================================
+encart gris 
+==============================================-->
+
+    <section class="encart-gris bg-gris py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-lg-8">
+                    <h1 class="text-white">Free Download at Start Boostrap!</h1>
+                    <a href="" class="btn bg-white rounded-pill px-3 py-2 fw-bold text-align">DOWNLOAD NOW!</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--bas de page-->
+
+
+    <section class="footer">
+        <div class="container py-5">
+            <div class="row text-center justify-content-center">
+                <div class="col-12 col-lg-8">
+
+                    <h1 class="text-dark">Let's Get In Touch!</h1>
+
+                    <div class="line bg-orange mx-auto my-4"></div>
+
+                    <p class="row text-dark py-2">Ready to start your next project with us? That's great! Give us a call
+                        or send us an email and we will get back to you as soon as possible!</p>
+
+                    <div class="row">
+                        <div class="text-center col-12 col-sm-6 col-md-6">
+                            <i class="fa fa-phone fa-3x mb-3 dark"></i>
+                            <p class="p">123-456-6789</p>
+                        </div>
+                        <div class="text-center col-12 col-sm-6 col-md-6">
+                            <i class="fa fa-envelope fa-3x mb-3"></i>
+                            <p class="mail px-4 px-sm-0">feedback@startbootstrap.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

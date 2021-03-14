@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/* règles générales*/
+
+:root {
+    --col-orange: #ED6041;
+    --col-text-light: #C4C0BB;
+    --col-text-dark: #212224;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.line {
+    width: 80px;
+    height: 2px;
+}
+
+.bg-orange {
+    background: var(--col-orange);
+}
+
+.orange {
+    color: var(--col-orange);
+}
+
+.dark {
+    color: var(--col-text-dark);
+}
+
+.bg-white {
+    background: white;
+}
+
+/* padding horizontal de B5 ici surchargé*/
+.px-5 {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+/* couleur de bootstrap 5 ici surchargé*/
+.text-light {
+    color: var(--col-text-light) !important;
+}
+/* chaque section */
+.py-5 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+/* -----------------------------------
+header 
+----------------------------*/
+header {
+    background: url(../img/header.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    height: 100vh;
+}
+
+.contact {
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 2.4rem;
+}
+
+.header p {
+    font-size: 1.1rem;
+}
+
+@media (min-width:992px) {
+    .header h1 {
+        font-size: 2.8rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: 1.4rem;
+    }
+}
+
+/*encart*/
+
+.encart h2 {
+    font-size: 2.4rem;
+}
+
+.encart p {
+    font-size: 1.1rem;
+}
+
+.bg-gris {
+    background:#212224;
+}
+
+@media (min-width:992px) {
+    .encart h2 {
+        font-size: 2.8rem;
+    }
+
+    .encart p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .encart h2 {
+        font-size: 3rem;
+    }
+
+    .encart p {
+        font-size: 1.4rem;
+    }
+}
+
+/*Services*/
+
+.services p {
+    font-size:1.1rem;
+}
+
+@media (min-width:992px) {
+    .services p {
+        font-size:1.2rem;
+    }
+}
+
+/*photos*/
+
+.marge { 
+    margin:0;
+    padding:0;
+}
+
+
+
+/*encart gris*/
+
+
+@media (min-width:992px) {
+    .encart-gris h2 {
+        font-size: 2.8rem;
+    }
+
+    .encart-gris p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .encart-gris h2 {
+        font-size: 3rem;
+    }
+
+    .encart-gris p {
+        font-size: 1.4rem;
+    }
+}
+
+/*bas de page*/
+
+footer {
+    color: var(--col-text-dark)
+}
+
+.footer p {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mail {
+    color:var(--col-orange)
+}
